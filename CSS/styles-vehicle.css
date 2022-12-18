@@ -1,0 +1,182 @@
+body, html {
+    height: 100%;
+  }
+
+body {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: rgb(247, 229, 229);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.div-logo {
+    width: 50%;
+    height: 11%;
+    position: absolute;
+    left: 5%;
+    top: 11%;
+}
+hr {
+    width: 80%;
+    margin-top: 3.3%;
+    position: absolute;
+    left: 10%;
+    top: 16%;
+    border-color: gray;
+    
+    
+}
+.logo-img {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+.div-options {
+    background-color: rgb(102, 124, 141);
+    background-image: linear-gradient(to right, rgb(36, 36, 39),rgb(40, 46, 53),rgb(26, 45, 99),rgb(76, 91, 155),rgb(22, 30, 70));
+    opacity: .8;
+
+    height: 11%;
+    width: 55%;
+    position: absolute;
+    right: 0%;
+    top: 11%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    opacity: 1;
+    margin: 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: rgb(247, 229, 229);
+    letter-spacing: 1.2px;
+}
+a:hover {
+    color: rgb(128, 131, 148);
+    border: none;
+    padding: 3.7% 0px 3.7% 0px;
+    border-bottom: .125rem solid white;
+}
+
+span {
+    font-weight: bold;
+    color: white;
+    margin-right: 1.5px;
+}
+.number {
+    color: rgb(138, 135, 135);
+}
+
+#technology {
+    padding: 3.7% 0px 3.7% 0px;
+    border-bottom: .125rem solid white;
+}
+
+.div-technology-description {
+    height: 60%;
+    width: 35%;
+
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.anchors {
+    width: 8%;
+    height: auto;
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-right: 15%
+    
+}
+.a-technology {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 80%;
+
+    border-style: solid;
+    border-width: thin;
+    border-radius: 50%;
+    border-color: rgb(182, 196, 209);
+    line-height: auto;
+    text-align: center;
+    font-family: 'Bellefair', serif;
+}
+.a-technology:hover {
+    background-color: white;
+}
+
+#capsule {
+    background-color: white;
+    color: black;
+}
+
+#vehicle {
+    background-color: white;
+    color: black;
+}
+
+#spaceport {
+    background-color: white;
+    color: black;
+}
+
+
+
+h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 0px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-left: 1.5px;
+    margin-bottom: 20%
+}
+
+h1 {
+    font-family: 'Bellefair', serif;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 0px;
+}
+
+.top-p {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: .9rem;
+}
+
+
+.div-image{
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+
+    width: 30%;
+    height: 65%;
+}
+.img-launch-vehicle {
+    position: absolute;
+    bottom: 10%;
+    right: 0px;
+
+    max-width: 100%;
+    height: auto;
+}
+

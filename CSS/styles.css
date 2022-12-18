@@ -1,0 +1,157 @@
+body, html {
+    height: 100%;
+  }
+
+body {
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: rgb(247, 229, 229);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.div-logo {
+    width: 50%;
+    height: 11%;
+    position: absolute;
+    left: 5%;
+    top: 11%;
+}
+hr {
+    width: 80%;
+    margin-top: 3.3%;
+    position: absolute;
+    left: 10%;
+    top: 16%;
+    border-color: gray;
+    
+    
+}
+.logo-img {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+.div-options {
+    background-color: rgb(102, 124, 141);
+    background-image: linear-gradient(to right, rgb(36, 36, 39),rgb(40, 46, 53),rgb(26, 45, 99),rgb(76, 91, 155),rgb(22, 30, 70));
+    opacity: .8;
+
+    height: 11%;
+    width: 55%;
+    position: absolute;
+    right: 0%;
+    top: 11%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    opacity: 1;
+    margin: 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: rgb(247, 229, 229);
+    letter-spacing: 1.2px;
+}
+a:hover {
+    color: rgb(128, 131, 148);
+    border: none;
+    padding: 3.7% 0px 3.7% 0px;
+    border-bottom: .125rem solid white;
+}
+
+span {
+    font-weight: bold;
+    color: white;
+    margin-right: 1.5px;
+}
+
+#home {
+    padding: 3.7% 0px 3.7% 0px;
+    border-bottom: .125rem solid white;
+}
+
+.div-space {
+    height: 40%;
+    width: 25%;
+    position: absolute;
+    bottom: 15%;
+    left: 12%;
+    
+    text-align: justify;
+    font-size: 1rem;
+   
+}
+h1 {
+    font-family: 'Bellefair', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 8rem;
+    margin: 25px auto 10px auto;
+    color: white;
+    letter-spacing: 15px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-bottom: 0px;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.explore {
+    background-color: rgb(238, 231, 231);
+    height: 30%;
+    width: 15%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    text-align: center;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-weight: normal;
+    font-size: 2.2rem;
+}
+
+.explore:hover {
+    background-color: rgb(17, 17, 17);
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    text-align: center;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-weight: normal;
+    font-size: 2.2rem;
+}

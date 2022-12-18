@@ -1,0 +1,182 @@
+body, html {
+    height: 100%;
+  }
+
+body {
+    background-image: url("../assets/crew/background-crew-desktop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: rgb(247, 229, 229);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.div-logo {
+    width: 50%;
+    height: 11%;
+    position: absolute;
+    left: 5%;
+    top: 11%;
+}
+.hr-logo {
+    width: 80%;
+    margin-top: 3.3%;
+    position: absolute;
+    left: 10%;
+    top: 16%;
+    border-color: gray;
+}
+
+.logo-img {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+.div-options {
+    background-color: rgb(102, 124, 141);
+    background-image: linear-gradient(to right, rgb(36, 36, 39),rgb(40, 46, 53),rgb(26, 45, 99),rgb(76, 91, 155),rgb(22, 30, 70));
+    opacity: .8;
+
+    height: 11%;
+    width: 55%;
+    position: absolute;
+    right: 0%;
+    top: 11%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    opacity: 1;
+    margin: 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: rgb(247, 229, 229);
+    letter-spacing: 1.2px;
+}
+a:hover {
+    color: rgb(128, 131, 148);
+    border: none;
+    padding: 3.7% 0px 3.7% 0px;
+    border-bottom: .125rem solid white;
+}
+
+span {
+    font-weight: bold;
+    color: white;
+    margin-right: 1.5px;
+}
+
+#crew {
+    padding: 3.7% 0px 3.7% 0px;
+    border-bottom: .125rem solid white;
+}
+
+.crew-image {
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+
+    width: 30%;
+    height: 65%;
+}
+
+.img-crew {
+    max-width: 100%;
+    height: auto;    
+}
+
+.div-crew-description {
+    height: 60%;
+    width: 30%;
+
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.8rem;
+    margin-top: 0px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-bottom: 150px;
+}
+.number {
+    color: rgb(138, 135, 135);
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: rgb(138, 135, 135);
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-family: 'Bellefair', serif;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 0px;
+}
+
+#first-bullet {
+    position: absolute;
+    font-size: 4rem;
+    color: white;
+}
+
+.bullet {
+    position: absolute;
+    font-size: 4rem;
+    color: rgb(138, 135, 135);
+}
+
+.second-bullet {
+    position: absolute;
+    font-size: 4rem;
+    color: rgb(73, 68, 68);
+}
+
+.third-bullet {
+    position: absolute;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.fourth-bullet {
+    position: absolute;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.first-bullet:hover {
+    color: white;
+}
+.second-bullet:hover {
+    color: white;
+}
+.third-bullet:hover {
+    color: white;
+}
+.fourth-bullet:hover {
+    color: white;
+}
+
+.first-bullet:active {
+    color: white;
+}
+

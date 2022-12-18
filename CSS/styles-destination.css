@@ -1,0 +1,164 @@
+body, html {
+    height: 100%;
+  }
+
+body {
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: rgb(247, 229, 229);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.div-logo {
+    width: 50%;
+    height: 11%;
+    position: absolute;
+    left: 5%;
+    top: 11%;
+}
+.hr-logo {
+    width: 80%;
+    margin-top: 3.3%;
+    position: absolute;
+    left: 10%;
+    top: 16%;
+    border-color: gray;
+}
+
+.logo-img {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+.div-options {
+    background-color: rgb(102, 124, 141);
+    background-image: linear-gradient(to right, rgb(36, 36, 39),rgb(40, 46, 53),rgb(26, 45, 99),rgb(76, 91, 155),rgb(22, 30, 70));
+    opacity: .8;
+
+    height: 11%;
+    width: 55%;
+    position: absolute;
+    right: 0%;
+    top: 11%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    opacity: 1;
+    margin: 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: rgb(247, 229, 229);
+    letter-spacing: 1.2px;
+}
+a:hover {
+    color: rgb(128, 131, 148);
+    border: none;
+    padding: 3.7% 0px 3.7% 0px;
+    border-bottom: .125rem solid white;
+}
+
+span {
+    font-weight: bold;
+    color: white;
+    margin-right: 1.5px;
+}
+.number {
+    color: rgb(138, 135, 135);
+}
+
+#destination {
+    padding: 3.7% 0px 3.7% 0px;
+    border-bottom: .125rem solid white;
+}
+
+
+
+.div-destionation-options {
+    height: 50%;
+    width: 25%;
+
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+   
+}
+h1 {
+    font-family: 'Bellefair', serif;
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin: 25px auto 10px auto;
+
+    letter-spacing: 12px;
+}
+
+.destination-options {
+    margin: 20px;
+}
+
+#moon {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 2px solid white;
+}
+#mars {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 2px solid white;
+}
+#europa {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 2px solid white;
+}
+#titan {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 2px solid white;
+}
+
+.tr1 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-right: 80px;
+}
+
+.tr2 {
+    text-transform: uppercase;
+    font-family: 'Bellefair', serif;
+    font-size: 1.8rem;
+}
+
+
+.div-pick-your-destination {
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+
+    width: 25%;
+    height: 65%;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 0px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-left: 1.5px;
+    margin-bottom: 20%
+}
+
+.destination-img {
+    max-width: 100%;
+    height: auto;
+}
